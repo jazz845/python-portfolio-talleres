@@ -1,0 +1,190 @@
+# Ejercicio 1
+## Declara una variable llamada ciudad con el valor 'Medellín' e imprímela.
+ciudad = "Medellín"
+print(ciudad)
+
+# Ejercicio 2
+## Declara una variable edad con tu edad real e imprímela.
+edad = 41
+print(edad)
+
+# Ejercicio 3
+## Declara una variable altura con tu altura en metros e imprímela.
+altura = 1.80
+print(altura)
+
+# Ejercicio 4
+## Declara una variable activo con el valor True e imprímela.
+activo = True
+print(activo)
+
+# Ejercicio 5
+## Imprime el tipo de dato de cada una de las variables anteriores usando type().
+print(type(ciudad))
+print(type(edad))
+print(type(altura))
+print(type(activo))
+
+# Ejercicio 6
+## Declara dos variables nombre y apellido. Concaténalas con + para imprimir tu nombre completo.
+## Pista: Recuerda agregar un espacio entre las dos variables.
+nombre = "Jaime"
+apellido = "Zapata"
+print(nombre + " " + apellido)
+
+# Ejercicio 7
+## Repite el ejercicio anterior pero usando f-string en lugar de +.
+print(f"{nombre} {apellido}")
+
+# Ejercicio 8
+## Declara una variable precio con valor 1500 e imprímela con el mensaje: 'El precio es: $1500'.
+precio = 1500
+print(f"El precio es: ${precio}")
+
+# Ejercicio 9
+## Declara una variable pi con valor 3.14159 e imprímela con solo 2 decimales usando :.2f.
+pi = 3.14159
+print(f"Pi: {pi:.2f}")
+
+# Ejercicio 10
+## Convierte la variable edad (int) a string usando str() e imprímela concatenada con un texto.
+edad = 41
+print(f"Mi edad es: {str(edad)}")
+
+# Ejercicio 11
+## Declara una variable temperatura con valor 36.6 e imprímela con el mensaje: 'Temperatura: 36.6°C'.
+temperatura = 36.6
+print(f"Temperatura: {temperatura}°C")
+
+# Ejercicio 12
+## Declara nombre, edad y ciudad. Crea un print con f-string que use las tres en una sola oración.
+nombre = "Jaime"
+edad = 41
+ciudad = "Medellín"
+print(f"Mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}.")
+
+# Ejercicio 13
+## Declara una variable año con valor 2024. Actualízala sumándole 1 e imprímela.
+## Pista: Usa año = año + 1
+año = 2024
+año = año + 1
+print(año)
+año = año + 1
+print(f"Realmente el año es: {año}")
+
+# Ejercicio 14
+## Declara una variable contador con valor 10. Réstale 3 e imprímela.
+contador = 10
+contador = contador - 3
+print(contador)
+
+# Ejercicio 15
+## Declara precio_unitario y cantidad. Calcula precio_total multiplicándolos e imprímelo.
+precio_unitario = 15000
+cantidad = 2
+precio_total = precio_unitario * cantidad
+print(f"El precio total es: ${precio_total}")
+
+# Ejercicio 16
+## Declara una variable texto con valor 'Python'. Imprímela en mayúsculas usando .upper().
+texto = "Python"
+print(texto.upper())
+
+# Ejercicio 17
+## Declara una variable con tu nombre completo. Imprímelo en minúsculas usando .lower().
+nombre_completo = "Jaime Zapata"
+print(nombre_completo.lower())
+# Ejercicio 17-a
+## Imprímelo en capitalizado usando .capitalize().
+print(nombre_completo.capitalize())
+
+# Ejercicio 18
+## Declara salario_mensual. Calcula salario_anual multiplicando por 12 e imprímelo con f-string.
+salario_mensual = 10000000
+salario_anual = salario_mensual * 12
+print(f"El salario anual es: ${salario_anual}")
+
+# Ejercicio 19
+## Declara dos variables num1 = 7 y num2 = 3. Imprime su suma, resta, multiplicación y división.
+num1 = 7
+num2 = 3
+print(f"Suma: {num1 + num2}")
+print(f"Resta: {num1 - num2}")
+print(f"Multiplicación: {num1 * num2}")
+print(f"División: {num1 / num2:.2f}")
+
+# Ejercicio 20
+## Declara una variable booleana tiene_seguro = False. Imprímela y cambia su valor a True. Imprímela de nuevo.
+tiene_seguro = False
+print(tiene_seguro)
+tiene_seguro = True
+print(tiene_seguro)
+
+# Ejercicio 21
+## Declara nombre_empresa con espacios en blanco al inicio y al final: ' Power Digital '. Imprímela usando .strip().
+nombre_empresa = " Power Digital "
+print(nombre_empresa.strip())
+
+# Ejercicio 22
+## Declara una variable con el valor '42' (string). Conviértela a int usando int() e imprímela con type().
+num = '42'
+num = int(num)
+print(type(num))
+
+# Ejercicio 23
+## Declara una variable con el valor '3.14' (string). Conviértela a float e imprímela.
+num = '3.14'
+num = float(num)
+print(num)
+
+# Ejercicio 24
+## Declara tres variables: producto, precio, stock. Imprime una ficha del producto con f-string en múltiples líneas.
+## Pista: Usa \n dentro del f-string para saltos de línea.
+producto = "Laptop"
+precio = 6000000
+stock = 5
+print(f"Producto: {producto}\nPrecio: ${precio}\nStock disponible: {stock}")
+
+# Ejercicio 25
+## Declara pais = 'Colombia'. Imprime cuántas letras tiene usando len().
+pais = 'Colombia'
+print(f"El país {pais} tiene {len(pais)} letras.")
+
+# Ejercicio 26
+## Declara una variable mensaje vacía: mensaje = ''. Imprímela y luego asígnale un valor. Imprímela de nuevo.
+mensaje = ''
+print(mensaje)
+mensaje = "llena"
+print(mensaje)
+
+# Ejercicio 27
+## Declara velocidad_kmh = 100. Calcula velocidad_ms dividiendo entre 3.6. Imprime el resultado con 2 decimales.
+velocidad_kmh = 80
+velocidad_ms = velocidad_kmh / 3.6
+print(f"{velocidad_kmh}Kmh en m/s es: {velocidad_ms:.2f}m/s")
+
+# Ejercicio 28
+## Declara dos variables con nombres de ciudades. Intercambia sus valores e imprime el resultado.
+## Pista: ciudad1, ciudad2 = ciudad2, ciudad1
+ciudad1 = "Medellín"
+ciudad2 = "Bogotá"
+ciudad1, ciudad2 = ciudad2, ciudad1
+print(f"Ciudad 1: {ciudad1}, Ciudad 2: {ciudad2}")
+
+# Ejercicio 29
+## Declara descuento = 0.15 y precio = 200. Calcula el precio final después del descuento e imprímelo.
+descuento = 0.15
+precio = 200
+precio_final = precio * (1 - descuento)
+print(f"El precio final después del descuento es: ${precio_final:.2f}")
+
+# Ejercicio 30
+## Crea una tarjeta de presentación usando al menos 6 variables y un f-string multilínea.
+## Pista: Incluye nombre, edad, ciudad, ocupación, email y una habilidad.
+nombre = "Jaime Zapata"
+edad = 41
+ciudad = "Medellín"
+ocupación = "IT Engineer"
+email = "contacto.jaimezapata@gmail.com"
+habilidad = "Programación en Python... proximamente"
+print(f"Tarjeta de Presentación:\nNombre: {nombre}\nEdad: {edad}\nCiudad: {ciudad}\nOcupación: {ocupación}\nEmail: {email}\nHabilidad: {habilidad}")
