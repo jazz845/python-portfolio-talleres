@@ -1,0 +1,98 @@
+# Ejercicio 1
+## Declara edad = 20. Imprime 'Mayor de edad' si es mayor o igual a 18, si no 'Menor de edad'.
+
+# Ejercicio 2
+## Declara temperatura = 38.5. Si es mayor a 37.5 imprime 'Fiebre', si no 'Normal'.
+
+# Ejercicio 3
+## Declara nota = 75. Imprime 'Aprobado' si es mayor o igual a 60, si no 'Reprobado'.
+
+# Ejercicio 4
+## Declara numero = 7. Imprime si es par o impar usando el operador %.
+
+# Ejercicio 5
+## Declara saldo = 500 y retiro = 300. Si el saldo es suficiente imprime 'Retiro exitoso', si no 'Saldo insuficiente'.
+
+# Ejercicio 6
+## Declara hora = 14. Imprime 'Buenos días' si es menor a 12, 'Buenas tardes' si es menor a 18, si no 'Buenas noches'.
+
+# Ejercicio 7
+## Declara velocidad = 85. Imprime 'Velocidad normal' si es menor o igual a 80, si no 'Exceso de velocidad'.
+
+# Ejercicio 8
+## Declara pais = 'Colombia'. Si es igual a 'Colombia' imprime 'Bienvenido a casa', si no 'Bienvenido visitante'.
+
+# Ejercicio 9
+## Declara x = 0. Imprime 'Positivo', 'Negativo' o 'Cero' según corresponda.
+
+# Ejercicio 10
+## Declara edad = 25 y tiene_licencia = True. Solo puede conducir si tiene más de 18 años Y tiene licencia.
+## Pista: Usa and.
+
+# Ejercicio 11
+## Declara es_estudiante = False y tiene_descuento = True. Si cualquiera es True, imprime 'Aplica descuento'.
+## Pista: Usa or.
+
+# Ejercicio 12
+## Declara imc = 27.5. Imprime la categoría: Bajo peso (<18.5), Normal (18.5-24.9), Sobrepeso (25-29.9), Obesidad (>=30).
+
+# Ejercicio 13
+## Declara stock = 0. Imprime 'Disponible' si es mayor a 0, si no 'Agotado'.
+
+# Ejercicio 14
+## Declara usuario = 'admin' y contrasena = '1234'. Solo imprime 'Acceso concedido' si las dos son correctas.
+
+# Ejercicio 15
+## Declara año = 2024. Imprime si es bisiesto. Un año es bisiesto si es divisible entre 4.
+## Pista: Usa el operador %.
+
+# Ejercicio 16
+## Declara precio = 150 y presupuesto = 200. Imprime si el usuario puede pagar, y cuánto le sobra o le falta.
+
+# Ejercicio 17
+## Declara nivel = 'junior'. Imprime el salario base: junior=2000, mid=4000, senior=7000, si no 'Nivel no reconocido'.
+
+# Ejercicio 18
+## Declara dos números. Imprime cuál es el mayor, o 'Son iguales' si son iguales.
+
+# Ejercicio 19
+## Declara nombre = ''. Imprime 'Nombre válido' si no está vacío, si no 'El nombre no puede estar vacío'.
+## Pista: Un string vacío es False en Python.
+
+# Ejercicio 20
+## Declara edad = 17 y con_permiso_padres = True. Puede entrar si es mayor de 18 O tiene permiso de sus padres.
+
+# Ejercicio 21
+## Declara tres números. Imprime cuál de los tres es el mayor.
+
+# Ejercicio 22
+## Declara dia = 'sábado'. Imprime 'Día laboral' o 'Fin de semana' según corresponda.
+
+# Ejercicio 23
+## Declara conexion_activa = True y bateria = 15. Imprime una alerta si la batería es menor a 20.
+## Pista: Úsalo combinado con and si quieres que solo alerte si está conectado.
+
+# Ejercicio 24
+## Declara lenguaje = 'Python'. Imprime 'Backend', 'Frontend' o 'Multiuso' según el lenguaje.
+## Pista: Python=Backend, JavaScript=Frontend, cualquier otro=Multiuso.
+
+# Ejercicio 25
+## Declara intentos = 3. Si es mayor a 2 imprime 'Cuenta bloqueada', si es 2 'Último intento', si no 'Intento válido'.
+
+# Ejercicio 26
+## Declara distancia_km = 12. Imprime el medio de transporte recomendado: <2km=caminar, <15km=bicicleta, si no=auto.
+
+# Ejercicio 27
+## Declara puntos = 850. Imprime el nivel del jugador: <500=Bronce, <1000=Plata, <2000=Oro, si no=Platino.
+
+# Ejercicio 28
+## Declara es_admin = False, es_moderador = True y cuenta_activa = True.
+## Solo puede publicar si la cuenta está activa Y (es admin O es moderador).
+## Pista: Combina and con or usando paréntesis.
+
+# Ejercicio 29
+## Declara numero = 15. Imprime si es divisible entre 3, entre 5, entre ambos, o entre ninguno.
+
+# Ejercicio 30
+## Declara rol = 'soporte', años_experiencia = 4 y certificado = True.
+## Define reglas de acceso con al menos 4 niveles diferentes usando la información de los tres campos.
