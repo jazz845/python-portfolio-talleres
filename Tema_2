@@ -1,5 +1,10 @@
 # Ejercicio 1
 ## Declara edad = 20. Imprime 'Mayor de edad' si es mayor o igual a 18, si no 'Menor de edad'.
+edad = 20
+if edad >= 18:
+print ("Mayor de edad")
+else:
+Print ("menor de edad")
 
 # Ejercicio 2
 ## Declara temperatura = 38.5. Si es mayor a 37.5 imprime 'Fiebre', si no 'Normal'.
@@ -95,4 +100,4 @@
 
 # Ejercicio 30
 ## Declara rol = 'soporte', años_experiencia = 4 y certificado = True.
-## Define reglas de acceso con al menos 4 niveles diferentes usando la información de los tres campos.
+## Define reglas de agit add .cceso con al menos 4 niveles diferentes usando la información de los tres campos.
