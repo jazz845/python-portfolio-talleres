@@ -1,0 +1,162 @@
+# Ejercicio 1
+# Imprime los números del 1 al 10 usando un loop for.
+for numero in range(1, 11):
+    print(numero)
+
+# Ejercicio 2
+# Imprime los números del 10 al 1 en orden descendente.
+# Pista: range(10, 0, -1)
+for numero in range(10, 0, -1):
+    print(numero)
+
+# Ejercicio 3
+# Imprime solo los números pares del 1 al 20.
+for numero in range(2, 21, 2):
+    print(numero)
+
+# Ejercicio 4
+# Imprime solo los números impares del 1 al 20.
+for numero in range(1, 21, 2):
+    print(numero)
+
+# Ejercicio 5
+# Imprime los múltiplos de 3 del 1 al 30.
+for numero in range(3, 31, 3):
+    print(numero)
+
+# Ejercicio 6
+# Usa un loop para sumar todos los números del 1 al 100. Imprime el resultado.
+# Pista: Declara una variable suma = 0 antes del loop.
+suma = 0
+for numero in range(1, 101):
+    suma = (suma + numero)
+print(suma)
+
+# Ejercicio 7
+# Declara una lista con 5 nombres. Usa un loop para imprimir cada nombre.
+nombres = ["Jaime", "Carlos", "Ana", "María", "Natalia"]
+
+for nombre in nombres:
+    print(f"{nombre}")
+
+# Ejercicio 8
+# Declara una lista con 5 precios. Usa un loop para imprimir cada precio con el símbolo $.
+precios = [100, 300, 450, 720, 1130]
+for precio in precios:
+    print(f"${precio}")
+
+# Ejercicio 9
+# Declara una lista con 5 números. Usa un loop para imprimir solo los que son mayores a 10.
+numeros = [2, 3, 9, 16, 32]
+for numero in numeros:
+    if numero > 10:
+        print(numero)
+
+# Ejercicio 10
+# Declara una lista con 5 números. Usa un loop para calcular e imprimir su suma total.
+numeros = [2, 3, 9, 16, 32]
+suma = 0
+for numero in numeros:
+    suma = (suma + numero)
+print(suma)
+
+# Ejercicio 11
+# Usa un while para imprimir los números del 1 al 5.
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador = contador + 1
+
+# Ejercicio 12
+# Usa un while que cuente hacia atrás desde 10 hasta 1 e imprima 'Despegue!' al final.
+contador = 10
+while contador >= 1:
+    print(contador)
+    contador = contador - 1
+print("Despegue!")
+
+# Ejercicio 13
+# Declara contador = 0. Usa un while para incrementarlo hasta 100 de 5 en 5. Imprime cada valor.
+contador = 0
+while contador <= 100:
+    print(contador)
+    contador = contador + 5
+
+# Ejercicio 14
+# Imprime la tabla de multiplicar del 7 usando un loop for.
+for numero in range(7, 71, 7):
+    print(f"7X{numero/7:.0f} = {numero}")
+
+# Ejercicio 15
+# Declara una lista de frutas. Usa un loop para imprimir cada fruta en mayúsculas.
+# Pista: Usa .upper() dentro del loop.
+frutas = ["mango", "banano", "sandia", "mora", "fresa"]
+for fruta in frutas:
+    fruta = fruta.upper()
+    print(fruta)
+
+# Ejercicio 16
+# Declara una lista con nombres. Usa un loop e imprime solo los nombres que tienen más de 4 letras.
+# Pista: Usa len() para medir la longitud.
+nombres = ["Jaime", "Carlos", "Ana", "María", "Natalia", "Sam", "Angela"]
+for nombre in nombres:
+    if len(nombre) > 4:
+        print(f"{nombre}")
+
+# Ejercicio 17
+# Declara una lista con números positivos y negativos. Imprime solo los positivos.
+numeros = [-1, 1, -2, 2, -3, 3]
+for numero in numeros:
+    if numero > 0:
+        print(numero)
+
+# Ejercicio 18
+# Declara una lista de palabras. Usa un loop para imprimir cada una con su longitud.
+# Pista: Ejemplo: 'Python tiene 6 letras'
+nombres = ["Jaime", "Carlos", "Ana", "María", "Natalia", "Sam", "Angela"]
+for nombre in nombres:
+    print(f"{nombre} tiene {len(nombre)} letras")
+
+# Ejercicio 19
+# Usa range() para imprimir los números del 0 al 50 de 5 en 5.
+
+# Ejercicio 20
+# Declara una lista de temperaturas. Usa un loop para imprimir cuáles son mayores a 37 (fiebre).
+
+# Ejercicio 21
+# Usa un loop para imprimir cada letra de tu nombre por separado.
+# Pista: Puedes iterar directamente sobre un string: for letra in nombre
+
+# Ejercicio 22
+# Declara una lista de números. Usa un loop para encontrar e imprimir el número más grande.
+# Pista: Declara maximo = lista[0] antes del loop y actualízalo si encuentras uno mayor.
+
+# Ejercicio 23
+# Declara una lista de precios. Usa un loop para aplicar un descuento del 10% a cada uno e imprime los precios nuevos.
+
+# Ejercicio 24
+# Usa un loop anidado para imprimir una tabla de multiplicar del 1 al 5 (filas) por 1 al 5 (columnas).
+# Pista: Un loop for dentro de otro loop for.
+
+# Ejercicio 25
+# Declara una lista de usuarios con nombre y activo (True/False). Imprime solo los usuarios activos.
+# Pista: Lista de diccionarios: [{nombre: ..., activo: ...}]
+
+# Ejercicio 26
+# Usa un loop para contar cuántos números pares hay en una lista de 10 números.
+# Pista: Declara contador = 0 antes del loop.
+
+# Ejercicio 27
+# Declara una lista de palabras. Usa un loop para imprimir solo las que empiezan con la letra 'a'.
+# Pista: Usa palabra[0] para acceder a la primera letra.
+
+# Ejercicio 28
+# Usa un while para pedir al usuario que adivine un número entre 1 y 10. El loop continúa hasta que adivine.
+# Pista: numero_secreto = 7. Usa input() para recibir la respuesta.
+
+# Ejercicio 29
+# Declara una lista de empleados con nombre y salario. Usa un loop para calcular la nómina total.
+
+# Ejercicio 30
+# Declara una lista de productos con nombre, precio y stock.
+# Imprime solo los disponibles (stock > 0) con su precio formateado con 2 decimales.
