@@ -284,7 +284,17 @@ else:
 
 # Ejercicio 30
 # Declara rol = 'soporte', años_experiencia = 4 y certificado = True.
-# Define reglas de agit add .cceso con al menos 4 niveles diferentes usando la información de los tres campos.
+# Define reglas de acceso con al menos 4 niveles diferentes usando la información de los tres campos.
 rol = 'soporte'
 años_experiencia = 4
-certificado = True.
+certificado = True
+if rol == 'admin' and años_experiencia >= 5 and certificado:
+    print("Acceso total")
+elif rol == 'soporte' and años_experiencia >= 3 and certificado:
+    print("Acceso limitado")
+elif rol == 'soporte' and años_experiencia >= 3:
+    print("Acceso restringido")
+elif rol == 'soporte':
+    print("Acceso mínimo")
+else:
+    print("Acceso denegado")
