@@ -119,36 +119,75 @@ for nombre in nombres:
 
 # Ejercicio 19
 # Usa range() para imprimir los números del 0 al 50 de 5 en 5.
+for numero in range(11):
+    print(numero*5)
 
 # Ejercicio 20
 # Declara una lista de temperaturas. Usa un loop para imprimir cuáles son mayores a 37 (fiebre).
+temperaturas = [27, 36, 40, 38, 25]
+for temperatura in temperaturas:
+    if temperatura > 37:
+        print(temperatura)
 
 # Ejercicio 21
 # Usa un loop para imprimir cada letra de tu nombre por separado.
 # Pista: Puedes iterar directamente sobre un string: for letra in nombre
+nombre = "Jaime"
+for letra in nombre:
+    print(letra)
 
 # Ejercicio 22
 # Declara una lista de números. Usa un loop para encontrar e imprimir el número más grande.
 # Pista: Declara maximo = lista[0] antes del loop y actualízalo si encuentras uno mayor.
+maximo = 0
+numeros = [2, 3, 9, 16, 32, 10, 54, -3]
+suma = 0
+for numero in numeros:
+    if numero > maximo:
+        maximo = numero
+print(maximo)
 
 # Ejercicio 23
 # Declara una lista de precios. Usa un loop para aplicar un descuento del 10% a cada uno e imprime los precios nuevos.
+precios = [100, 300, 450, 720, 1130]
+for precio in precios:
+    print(f"${precio*0.9:.2f}")
 
 # Ejercicio 24
 # Usa un loop anidado para imprimir una tabla de multiplicar del 1 al 5 (filas) por 1 al 5 (columnas).
 # Pista: Un loop for dentro de otro loop for.
+for fila in range(1, 6):
+    for columna in range(1, 6):
+        print(f"{fila}X{columna}={fila*columna}", end="\t")
+    print()
 
 # Ejercicio 25
 # Declara una lista de usuarios con nombre y activo (True/False). Imprime solo los usuarios activos.
 # Pista: Lista de diccionarios: [{nombre: ..., activo: ...}]
+usuarios = [{"nombre": "Jaime", "activo": True}, {"nombre": "Natalia", "activo": True}, {"nombre": "Camilo", "activo": False}, {
+    "nombre": "andrea", "activo": False}, {"nombre": "felipe", "activo": True}, {"nombre": "cristina", "activo": True}]
+for usuario in usuarios:
+    if usuario["activo"]:
+        print(usuario["nombre"])
 
 # Ejercicio 26
 # Usa un loop para contar cuántos números pares hay en una lista de 10 números.
 # Pista: Declara contador = 0 antes del loop.
+contador = 0
+numeros = [2, 3, 9, 16, 32, 10, 54, -3]
+for numero in numeros:
+    if numero % 2 == 0:
+        contador = (contador+1)
+print(contador)
 
 # Ejercicio 27
 # Declara una lista de palabras. Usa un loop para imprimir solo las que empiezan con la letra 'a'.
 # Pista: Usa palabra[0] para acceder a la primera letra.
+palabras = ["murciélago", "bicicleta", "galaxia", "susurro", "horizonte", "mariposa", "enigma", "melodía", "tesoro", "cascada",
+            "brújula", "misterio", "centella", "laberinto", "amatista", "luciérnaga", "cristal", "espejismo", "universo", "nostalgia"]
+for palabra in palabras:
+    if palabra[0] == "a":
+        print(palabra)
 
 # Ejercicio 28
 # Usa un while para pedir al usuario que adivine un número entre 1 y 10. El loop continúa hasta que adivine.
