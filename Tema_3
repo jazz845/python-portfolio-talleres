@@ -192,10 +192,29 @@ for palabra in palabras:
 # Ejercicio 28
 # Usa un while para pedir al usuario que adivine un número entre 1 y 10. El loop continúa hasta que adivine.
 # Pista: numero_secreto = 7. Usa input() para recibir la respuesta.
+numero_secreto = 7
+while True:
+    intento = int(input("Adivina el número (1-10): "))
+    if intento == numero_secreto:
+        print("¡Correcto!")
+        break
 
 # Ejercicio 29
 # Declara una lista de empleados con nombre y salario. Usa un loop para calcular la nómina total.
+empleados = [{"nombre": "Jaime", "salario": 10000000}, {"nombre": "Natalia", "salario": 6000000}, {"nombre": "Camilo", "salario": 7000000}, {"nombre": "Andrea", "salario": 6000000}, {"nombre": "Julian", "salario": 4000000}, {
+    "nombre": "Luisa", "salario": 2000000}, {"nombre": "Lorenzo", "salario": 3000000}, {"nombre": "Laura", "salario": 4500000}, {"nombre": "Jorge", "salario": 7600000}, {"nombre": "Sofia", "salario": 3800000}]
+nomina = 0
+for empleado in empleados:
+    nomina = nomina + empleado["salario"]
+print(f"la nomina total es ${nomina}")
 
 # Ejercicio 30
 # Declara una lista de productos con nombre, precio y stock.
 # Imprime solo los disponibles (stock > 0) con su precio formateado con 2 decimales.
+
+productos = [{"nombre": "lápiz de grafito", "precio": 1500, "stock": 15}, {"nombre": "cuaderno argollado", "precio": 5000, "stock": 10}, {"nombre": "tijeras escolares", "precio": 3000, "stock": 0}, {"nombre": "borradores de nata", "precio": 500, "stock": 15}, {"nombre": "sacapuntas metálico", "precio": 700, "stock": 0}, {
+    "nombre": "cinta adhesiva", "precio": 2000, "stock": 3}, {"nombre": "marcadores permanentes", "precio": 7000, "stock": 0}, {"nombre": "juego de geometría", "precio": 10000, "stock": 0}, {"nombre": "notas adhesivas", "precio": 5000, "stock": 15}, {"nombre": "bolígrafo de tinta negra", "precio": 2000, "stock": 50}]
+for producto in productos:
+    if producto["stock"] > 0:
+        print(
+            f"Tenemos {producto['stock']} en {producto['nombre']} y su precio es ${producto['precio']}")
